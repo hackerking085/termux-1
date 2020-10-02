@@ -2,6 +2,8 @@
 
 ### install google-cloud-sdk
 
+    $apt-get update && apt-get upgrade -y
+
     scratch=$(mktemp -d -t tmp.XXXXXXXXXX) 
 
     cd $scratch
